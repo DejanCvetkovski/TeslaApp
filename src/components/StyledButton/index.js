@@ -3,7 +3,7 @@ import { View, Pressable, Alert, Text } from "react-native";
 import styles from "./style";
 
 const StyledButton = ({ type, title, onPress }) => {
-  const background = type === "primary" ? "#ddd" : "white";
+  const background = type === "primary" ? "#333" : "white";
   const textColor = type === "primary" ? "white" : "#333";
 
   return (
